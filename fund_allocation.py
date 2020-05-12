@@ -4,7 +4,7 @@ from datetime import datetime
 import json
 
 def FundAllocation():
-    sent = requests.get('https://api.ethplorer.io/getAddressInfo/0xCB60D600160D005845Ec999f64266D5608fd8943?apiKey=freekey').json()
+    sent = requests.get('https://api.ethplorer.io/getAddressInfo/0x392e693e0222e07e88fbf2cf7107e2dfac8af678?apiKey=freekey').json()
 
     data = {'Symbol' : ['ETH'], 'Balance' : [sent['ETH']['balance'] * sent['ETH']['price']['rate']]}
     df = pd.DataFrame(data)

@@ -18,7 +18,7 @@ jobs:
         packages: |
           requests
           pandas
-    - run: python data_graphs.py
+    - run: python fund_allocation.py
     
     - run: |
         git config --local user.email "action@github.com"
