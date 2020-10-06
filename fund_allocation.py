@@ -32,7 +32,9 @@ def MaltaAllocation():
         '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2': 'MKR',
         '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2': 'ETH',
         '0xe41d2489571d322189246dafa5ebde1f4699f498': 'ZRX',
-        '0xec67005c4e498ec7f55e092bd1d35cbc47c91892': 'MLN'
+        '0xec67005c4e498ec7f55e092bd1d35cbc47c91892': 'MLN',
+        '0x0f5d2fb29fb7d3cfee444a200298f468908cc942': 'MANA',
+        '0xdd974d5c2e2928dea5f71b9825b8b646686bd200': 'KNC'
     }
 
     assets = []
